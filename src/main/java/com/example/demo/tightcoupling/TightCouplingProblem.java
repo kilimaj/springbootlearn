@@ -2,7 +2,7 @@ package com.example.demo.tightcoupling;
 
 public class TightCouplingProblem {
 	Doctor doctor;
-	Engineer engineer;
+	Engineer engineer;                 
 	
 	public TightCouplingProblem(Doctor doctor, Engineer engineer) {
 		super();
