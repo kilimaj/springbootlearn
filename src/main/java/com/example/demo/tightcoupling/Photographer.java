@@ -1,5 +1,8 @@
 package com.example.demo.tightcoupling;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class Photographer implements Job{
 
 	@Override
