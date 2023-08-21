@@ -3,6 +3,7 @@ package com.example.demo;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.ComponentScan;
 
 import com.example.demo.tightcoupling.Doctor;
 import com.example.demo.tightcoupling.Engineer;
@@ -12,6 +13,10 @@ import com.example.demo.tightcoupling.TightCouplingProblem;
 import com.example.demo.tightcoupling.TightCouplingSolution;
 
 @SpringBootApplication
+
+//Incase the bean is in another package
+//@ComponentScan("con.test.dtos")
+
 public class SpringbootlearnApplication {
 
 	public static void main(String[] args) {
